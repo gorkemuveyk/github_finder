@@ -1,6 +1,5 @@
 import React from "react";
 import UserText from "./UserText";
-
 import UserLocation from "./UserLocation";
 import UserSocials from "./UserSocials";
 

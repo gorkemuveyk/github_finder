@@ -8,7 +8,7 @@ import {
 
 const UserLocation = () => {
   return (
-    <div className="mt-4 flex justify-between items-center border p-1 rounded-2xl">
+    <div className="mt-4 text-xs md:text-base flex justify-between items-center border p-1 rounded-2xl">
       <div className="flex items-center gap-1 p-3 justify-center rounded-2xl">
         <CiLocationOn className="size-6" /> <span>Turkiye</span>
       </div>
