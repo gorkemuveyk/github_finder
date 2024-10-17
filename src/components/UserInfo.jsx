@@ -3,12 +3,12 @@ import UserText from "./UserText";
 import UserLocation from "./UserLocation";
 import UserSocials from "./UserSocials";
 
-const UserInfo = () => {
+const UserInfo = ({ userData }) => {
   return (
     <div className="bg-white w-full rounded-2xl p-6">
-      <UserText />
-      <UserLocation />
-      <UserSocials />
+      <UserText userData={userData} />
+      <UserLocation userData={userData} />
+      <UserSocials userData={userData} />
     </div>
   );
 };
